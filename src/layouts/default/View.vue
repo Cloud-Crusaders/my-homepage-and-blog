@@ -10,5 +10,5 @@
 
 <script lang="ts" setup>
   //
-  import NavigationBarTop from '@/components/NavigationBarTop'
+  import NavigationBarTop from '@/components/NavigationBarTop.vue'
 </script>

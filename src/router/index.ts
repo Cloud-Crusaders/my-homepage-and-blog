@@ -7,6 +7,24 @@ const routes = [
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
+        path: '/music',
+        name: 'Music',
+        // route level code-splitting
+        component: () => import('@/views/Music.vue'),
+      },
+      {
+        path: '/nerdy',
+        name: 'Nerdy',
+        // route level code-splitting
+        component: () => import('@/views/Nerdy.vue'),
+      },
+      {
+        path: '/contact',
+        name: 'Contact',
+        // route level code-splitting
+        component: () => import('@/views/Contact.vue'),
+      },
+      {
         path: '',
         name: 'Home',
         // route level code-splitting
